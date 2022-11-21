@@ -15,6 +15,7 @@ font-family: sans-serif;
     text-decoration: none;
     color:black;
     position:relative;
+    overflow: hidden;
 }
 .btn::before{
 content: "";
@@ -26,4 +27,10 @@ left: 50%;
 top:50%;
 transform: translate(-50%,-50%);
 border-radius: 50%;
+}
+.btn:hover::before{
+    width: 300px;
+    height: 300px;
+
+
 }
