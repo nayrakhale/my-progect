@@ -27,6 +27,7 @@ left: 50%;
 top:50%;
 transform: translate(-50%,-50%);
 border-radius: 50%;
+transition: width 0.5s, height 0.5s;
 }
 .btn:hover::before{
     width: 300px;
